@@ -1,0 +1,32 @@
+{
+  "name": "sqlpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "nodemon server/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.9",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "body-parser": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
